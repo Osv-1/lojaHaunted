@@ -55,12 +55,18 @@ p {
     justify-content: space-around;
 
 }
-.row h1{
+
+.row h1 {
     color: white;
 }
 
-.navbar .cart-img{
+.cart-icon {
     color: white;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
 }
 
 .col-2 {
@@ -225,7 +231,8 @@ small {
     margin: 12px 0;
     color: #777;
 }
-.testimonial .col-3 h3{
+
+.testimonial .col-3 h3 {
     font-weight: 600;
     color: #555;
     font-size: 16px;
@@ -233,18 +240,94 @@ small {
 
 /*----- brands ---->*/
 
-.brands{
+.brands {
     margin: 100px auto;
 }
-.col-5{
+
+.col-5 {
     width: 160px;
 }
-.col-5 img{
+
+.col-5 img {
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
 }
-.col-5 img:hover{
+
+.col-5 img:hover {
     filter: grayscale(0);
+}
+
+/*----- footer ---->*/
+
+.footer {
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer .haunted-logo-footer {
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+
+
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-3 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
 }
 
