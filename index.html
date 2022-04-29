@@ -21,7 +21,7 @@
                 <img src="images/haunted_logo.png" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="MenuItems">
                     <li><a href="">Home</a></li>
                     <li><a href="">Produtos</a></li>
                     <li><a href="">Sobre</a></li>
@@ -32,7 +32,8 @@
             </nav>
 
             <img src="images/cart.png" width="30px" height="30px" class="cart-icon">
-            <img src="images/menu.png" class="menu-icon">
+            <img src="images/menu.png" class="menu-icon"
+                 onclick="menutoggle()">
 
 
         </div>
@@ -216,31 +217,14 @@
     </div>
 </div>
 
-<!----- brands ---->
+<!----- footer ---->
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="footer-col-1">
-                <h3>Download our app</h3>
-                <p>Download app for android or ios</p>
 
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
-                </div>
-            </div>
             <div class="footer-col-2">
                 <img src="images/haunted_logo.png" class="haunted-logo-footer">
                 <p>Nosso proposito é a sustentabilidade e acessibilidade para todo o mundo</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful links</h3>
-                <ul>
-                    <li>Cupons</li>
-                    <li>Blogpost</li>
-                    <li>Return policy</li>
-                    <li>Join afilliate</li>
-                </ul>
             </div>
             <div class="footer-col-4">
                 <h3>Follow Us</h3>
@@ -257,6 +241,22 @@
     </div>
 </div>
 
+<!----- js for toggle menu ---->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
 
 </body>
 </html>
