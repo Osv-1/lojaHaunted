@@ -186,8 +186,8 @@ p {
 }
 
 h4 {
-    color: #555;
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
 }
 
 .col-4 p {
@@ -214,7 +214,7 @@ h4 {
 }
 
 small {
-    color: #555;
+    color: white;
 
 }
 
